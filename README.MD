@@ -24,3 +24,10 @@
 - Têm informações sobre a pontuação dos ouvintes na premiação da rádio.
 - Acesso irrestrito a operações na base de dados.
 - *SELECT*, *INSERT*, *UPDATE* e *DELETE* em tabelas.
+
+
+### Tecnologias utilizadas
+
+- [Jupyter Notebook](https://jupyter.org/)
+- [Python](https://www.python.org/)
+- [PostgreSQL](https://www.postgresql.org/)
