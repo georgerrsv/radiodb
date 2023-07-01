@@ -7,4 +7,4 @@
 - Têm informações sobre a quantidade de vezes que uma música foi tocada.
 - Têm informações sobre a pontuação dos ouvintes na premiação da rádio.
 - Acesso irrestrito a operações na base de dados.
-- *SELECT*, *INSERT*, *UPDATE* e *DELETE* em tabelas.
+- `SELECT`, `INSERT`, `UPDATE` e `DELETE` em tabelas.

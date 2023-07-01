@@ -5,5 +5,5 @@
 - Consulta a programação da rádio.
 - Consulta sua pontuação na premiação da rádio.
 - Acesso limitado a operações na base de dados.
-- *SELECT* em tabelas e colunas específicas.
-- *INSERT* em tabelas e colunas específicas.
+- `SELECT` em tabelas e colunas específicas.
+- `INSERT` em tabelas e colunas específicas.
