@@ -1,4 +1,2 @@
 radioenv/
-create_db/create_query.sql
-create_db/insert_query.sql
-create_db/select_query.sql
+create_db/
