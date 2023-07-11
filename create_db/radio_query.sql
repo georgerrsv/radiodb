@@ -1,4 +1,8 @@
--- # CRIANDO O BANCO DE DADOS #
+-- # CRIANDO O DATABASE #
+
+create database radio;
+
+-- # CRIANDO TABELAS #
 
 create table ouvinte (
     cpf varchar(11) NOT NULL,
@@ -357,3 +361,18 @@ create view noticias as
     join apresentador apr on apr.id = qap.id_apresentador
     join quadro qd on qd.id = qap.id_quadro
     where qd.tipo_do_quadro = 'noticia';
+
+
+-- # CRIANDO USUÁRIOS #
+
+--USUÁRIO 1 ADMIN
+create user radio_server password 'srv123';
+grant all privileges on database radio to radio_server;
+
+--USUÁRIO 2 CLIENTE
+create user radio_user password '123usr';
+grant select on participante to radio_user;
+grant select on quadro_manha to radio_user;
+grant select on grade to radio_user;
+grant select on musicas to radio_user;
+grant select on noticias to radio_user;
